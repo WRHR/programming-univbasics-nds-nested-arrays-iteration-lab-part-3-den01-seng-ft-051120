@@ -7,7 +7,7 @@ def join_nested_strings(src)
   while row_i < src.length do 
     col_i = 0
     while col_i < src[row_i].length do 
-      if src[row_i][col_i]
+      if src[row_i][col_i].class == String
       col_i += 1
     end
     
